@@ -6,7 +6,21 @@
 /*   By: jhouyet <jhouyet@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/24 11:26:31 by jhouyet           #+#    #+#             */
-/*   Updated: 2024/06/24 11:27:14 by jhouyet          ###   ########.fr       */
+/*   Updated: 2024/06/24 14:01:16 by jhouyet          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "ScalarConverter.hpp"
+
+int main(int argc, char **argv)
+{
+    if (argc == 2)
+    {
+        std::cout << "ScalarConverter : " << argv[1] << std::endl;
+    }
+    else
+    {
+        std::cout << "Bad arguments." << std::endl;
+    }
+    return (0);
+}
