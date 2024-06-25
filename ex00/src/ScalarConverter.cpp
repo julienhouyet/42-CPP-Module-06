@@ -6,7 +6,7 @@
 /*   By: jhouyet <jhouyet@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/24 11:25:36 by jhouyet           #+#    #+#             */
-/*   Updated: 2024/06/25 11:09:26 by jhouyet          ###   ########.fr       */
+/*   Updated: 2024/06/25 11:15:47 by jhouyet          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ ScalarConverter::~ScalarConverter( void )
 //                         Public Member Functions                            //
 // ************************************************************************** //
 
-void ScalarConverter::convert(const std::string& nbr)
+void ScalarConverter::convert(const std::string& literal)
 {
-	std::cout << nbr << std::endl;
+	std::cout << literal << std::endl;
 }
