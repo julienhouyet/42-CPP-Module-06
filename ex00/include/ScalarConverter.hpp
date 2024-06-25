@@ -6,7 +6,7 @@
 /*   By: jhouyet <jhouyet@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/24 11:25:34 by jhouyet           #+#    #+#             */
-/*   Updated: 2024/06/24 11:32:36 by jhouyet          ###   ########.fr       */
+/*   Updated: 2024/06/25 10:03:46 by jhouyet          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,23 +14,22 @@
 #ifndef __SCALAR_CONVERTER_HPP__
 #define __SCALAR_CONVERTER_HPP__
 
-
+#include <iostream>
 
 // ************************************************************************** //
-//                           Scalar Converter Class                           //
+//                            ScalarConverter Class                           //
 // ************************************************************************** //
 
 class ScalarConverter
 {
 	public:
+		static void	convert(std::string	str);
+
+	private:
 		ScalarConverter( void );
 		ScalarConverter( const ScalarConverter& copy );
 		ScalarConverter& operator=( const ScalarConverter& copy );
 		~ScalarConverter( void );
-
-		static void	convert(std::string	nb);
-
-	private:
 };
 
 #endif

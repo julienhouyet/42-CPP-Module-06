@@ -6,11 +6,11 @@
 #    By: jhouyet <jhouyet@student.s19.be>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/06/24 11:24:58 by jhouyet           #+#    #+#              #
-#    Updated: 2024/06/24 11:25:14 by jhouyet          ###   ########.fr        #
+#    Updated: 2024/06/25 09:48:03 by jhouyet          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME 		= converter
+NAME 		= convert
 
 SRC_DIR 	= src
 INC_DIR		= include

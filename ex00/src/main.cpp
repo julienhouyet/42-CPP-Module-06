@@ -6,11 +6,13 @@
 /*   By: jhouyet <jhouyet@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/24 11:26:31 by jhouyet           #+#    #+#             */
-/*   Updated: 2024/06/24 14:01:16 by jhouyet          ###   ########.fr       */
+/*   Updated: 2024/06/25 09:48:52 by jhouyet          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ScalarConverter.hpp"
+
+#include <iostream>
 
 int main(int argc, char **argv)
 {
