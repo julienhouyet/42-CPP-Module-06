@@ -3,3 +3,4 @@
 *.o
 
 ex00/convert
+ex01/serializer
