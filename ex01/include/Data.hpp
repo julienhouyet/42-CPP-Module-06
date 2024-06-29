@@ -6,12 +6,14 @@
 /*   By: jhouyet <jhouyet@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/29 08:00:08 by jhouyet           #+#    #+#             */
-/*   Updated: 2024/06/29 08:08:35 by jhouyet          ###   ########.fr       */
+/*   Updated: 2024/06/29 09:49:29 by jhouyet          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef DATA_HPP
 #define DATA_HPP
+
+#include <string>
 
 struct Data
 {

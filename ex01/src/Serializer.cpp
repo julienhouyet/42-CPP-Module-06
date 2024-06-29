@@ -6,7 +6,7 @@
 /*   By: jhouyet <jhouyet@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/29 07:58:48 by jhouyet           #+#    #+#             */
-/*   Updated: 2024/06/29 08:04:05 by jhouyet          ###   ########.fr       */
+/*   Updated: 2024/06/29 09:47:36 by jhouyet          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,4 +35,18 @@ Serializer& Serializer::operator=( const Serializer& copy )
 Serializer::~Serializer( void )
 {
 	
+}
+
+// ************************************************************************** //
+//                         Public Member Functions                            //
+// ************************************************************************** //
+
+uintptr_t Serializer::serialize(Data* ptr)
+{
+    return reinterpret_cast<uintptr_t>(ptr);
+}
+
+Data* Serializer::deserialize(uintptr_t raw)
+{
+    return reinterpret_cast<Data*>(raw);
 }
