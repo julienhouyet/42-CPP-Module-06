@@ -6,7 +6,7 @@
 /*   By: jhouyet <jhouyet@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/24 11:25:36 by jhouyet           #+#    #+#             */
-/*   Updated: 2024/06/29 07:56:15 by jhouyet          ###   ########.fr       */
+/*   Updated: 2024/07/02 09:22:04 by jhouyet          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -120,7 +120,7 @@ void ScalarConverter::convert(const std::string &literal)
 
 void ScalarConverter::convertToChar(double value)
 {
-	if (std::isnan(value) || std::isinf(value) || value < std::numeric_limits<char>::min() || value > std::numeric_limits<char>::max())
+	if (isnan(value) || isinf(value) || value < std::numeric_limits<char>::min() || value > std::numeric_limits<char>::max())
 	{
 		std::cout << "char: impossible" << std::endl;
 	} 
@@ -140,7 +140,7 @@ void ScalarConverter::convertToChar(double value)
 
 void ScalarConverter::convertToInt(double value)
 {
-	if (std::isnan(value) || std::isinf(value) || value < std::numeric_limits<int>::min() || value > std::numeric_limits<int>::max())
+	if (isnan(value) || isinf(value) || value < std::numeric_limits<int>::min() || value > std::numeric_limits<int>::max())
 	{
 		std::cout << "int: impossible" << std::endl;
 	}
